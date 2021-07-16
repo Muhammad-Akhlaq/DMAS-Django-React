@@ -1,0 +1,200 @@
+.Mapadj{
+    padding-bottom: 40%;
+    
+    padding-right: 20%;
+    
+}
+
+.result-body{
+   background-color:  #FAFAFA;
+}
+.user-data{
+    justify-content: center;
+    display: flex;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 20px;
+    margin: 0 240px;
+    border-radius: 10px;
+    border-bottom: 10px solid lightgray;
+}
+.user-text{
+justify-content: center;
+flex-wrap: wrap;
+display: flex;
+
+}
+.map{
+    justify-content: center;
+    display: flex;
+    
+    position: absolute;
+    background-color: black;
+    width:50%
+}
+.Data{
+    background-color: cadetblue;
+    justify-content: center;
+    display: flex;
+}
+.Bar-graph{
+    
+    
+   
+   
+    justify-content: center;
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 50px ;
+    margin-top: 6%;
+    
+}
+
+.map-result{
+   position:absolute;
+
+}
+.map-result-inner{
+    width: 70%; 
+    height: 100%;
+     margin:0px auto;
+      display:inline-block;
+}
+.main-card-result{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.card-result1{
+    margin: 20px;
+    padding: 15px;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    overflow: hidden;
+    width: 20%;
+    border-bottom: 10px solid #DE924B;
+    
+}
+.card-result2{
+    margin: 20px;
+    padding: 15px;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    overflow: hidden;
+    width: 20%;
+    border-bottom: 10px solid skyblue;
+    
+}
+.card-result3{
+    margin: 20px;
+    padding: 15px;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    overflow: hidden;
+    width: 20%;
+    border-bottom: 10px solid seagreen;
+    
+}
+
+.paragraph-result{
+    font-size: 14px;
+}
+.main-container{
+    display: inline-table;
+    color: black;
+    width: 70%;
+    margin: 2rem;
+}
+.footer{
+    text-align:center ;
+    margin: 2rem;
+}
+.result{
+    text-align: start;
+    margin-left: 2rem;
+}
+.side-div-Result{
+   display: inline-table;
+   display: flex;
+   flex-direction: column;
+  width: 256px;
+  height: 150px;
+  margin-top: -1rem;
+  
+background-color: #fff;
+ 
+ 
+  margin-left: 68.33rem;
+  margin-bottom: 3rem;
+}
+.social-media{
+  
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-size: 28px;
+}
+.social-media:hover{
+    transition: all 0.3s ease-out;
+    
+}
+.deathresult1{
+  
+    width: 50%;
+    display: inline-table;
+    
+    background-color: red;
+}
+.deathresult2{
+    
+    width: 50%;
+    display: inline-table;
+    background-color: green;
+}
+@media screen and (max-width: 660px) {
+  
+   
+.main-card-result{
+    display: grid;
+    
+}
+.card-result1{
+    width: auto;
+}
+.card-result2{
+    width: auto;
+}
+.card-result3{
+    width: auto;
+}
+.Bar-graph{
+    margin: auto;
+}
+.Mapadj{
+   height: 50%;
+   
+}
+
+}
+@media screen and (max-width: 1024px) {
+    .Mapadj{
+        padding-bottom: 240%;
+        
+    }
+}

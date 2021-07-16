@@ -1,0 +1,36 @@
+
+body{
+  overflow-x: hidden;
+}.floodmap {
+  padding-bottom: 40%;
+  width: 55%;
+  overflow-x: hidden;
+  
+}
+
+@media screen and (max-width: 660px) {
+    .floodmap{
+        padding-bottom: 240%;
+        
+    }
+    
+}
+@media screen and (max-width: 720px) {
+  
+  
+  .floodmap{
+      padding-bottom: 40%;
+     width: 100%;
+     
+      position: relative;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .floodmap{
+    position: relative;
+      width: 100%;
+      
+  }
+}
+  

@@ -1,0 +1,37 @@
+.pagination2{
+    display: flex;
+    justify-content: center;
+
+}
+.pagination {
+    text-align: center;
+    display: flex;
+    margin: 4rem 0;
+    
+  }
+  
+  .pagination a {
+    padding: 0.6rem 0.9rem;
+    border-radius: 2rem;
+    margin: 0 0.3rem;
+    color: black;
+  }
+  .arrow-btn{
+    
+    background-color: #FAFAFA;
+    margin: 0 0.3rem;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+  }
+   .pagination .pages {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+  }
+  .page-item :active{
+    background-color: red;
+    color: white;
+    display: flex;
+    
+  }

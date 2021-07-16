@@ -1,0 +1,23 @@
+.Main-BlogData-Container{
+    justify-content: center;
+    display: flex;
+}
+.site-content-BlogData{
+    width: 60%;
+            
+   margin: 2rem;
+}
+.imgg-Blog-data{
+    width: 100%;
+    position: relative;
+}
+.post-info-Blog-data{
+    background-color: rgb(160, 213, 235);
+    position: absolute;
+    padding: 1rem;
+    bottom: 0%;
+    right: 38vw;
+   
+    border-radius: 3rem;
+    
+}

@@ -1,0 +1,67 @@
+.box{
+    margin-left: 0.4rem;
+    width: 50%;
+    height: 2rem;
+  }
+  .box2{
+    margin-left: 1.3rem;
+    width: 50%;
+    height: 2rem;
+  }
+  .box3{
+    margin-left: 1rem;
+    width: 50%;
+    height: 2rem;
+  }
+  .box4{
+    margin-left: 2.1rem;
+    width: 50%;
+    height: 2rem;
+  }
+  .heading-centre{
+    justify-content: center;
+    display: flex;
+  }
+  .DeathButton{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    
+    border: 1px solid black;
+    transition: all 0.3s ease-out;
+    padding: 8px 50px;
+    font-size: 20px;
+    border-radius: 5px solid black;
+    margin-left: 9.5rem;
+    margin-bottom: 5rem;
+    text-decoration: none;
+  }
+  
+  .DeathButton:hover {
+    transition: all 0.3s ease-out;
+    background: white;
+    color: black;
+    transition: 250ms;
+  }
+  @media screen and (max-width: 960px) {
+    .box{
+      width: 100%;
+      margin: auto;
+    }
+    .box2{
+      width: 100%;
+      margin: auto;
+    }
+    .box3{
+      width: 100%;
+      margin: auto;
+    }
+    .box4{
+      width: 100%;
+      margin: auto;
+    }
+    
+    .DeathButton{
+      margin-left: 14px;
+    }
+  }

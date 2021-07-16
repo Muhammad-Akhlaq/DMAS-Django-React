@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0 ;
+  padding: 0;
+  
+  font-family: 'PT Sans', sans-serif;
+ 
+}
+body{
+  background-color: #f7f7f7;
+}
+.main{
+background-color: rgb(31, 34, 53);
+margin: 2rem ;
+
+
+
+
+}
+.h4{
+  color: red;
+  text-align: center;
+  margin: 1rem;
+}
+.h1{
+  
+  font-weight: bold;
+  color:black;
+  
+}
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  background-image: url('/src/components/images/img-3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.Product {
+  background-image: url('/src/components/images/img-2.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}

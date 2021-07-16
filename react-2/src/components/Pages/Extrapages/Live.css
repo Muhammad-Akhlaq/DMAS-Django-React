@@ -1,0 +1,23 @@
+
+.live{
+    background: color #f7f7f7;
+    margin: 60px ;
+    
+}
+
+@media screen and (max-width: 660px){
+    .live-heading {
+        text-align: center;
+        margin: -1.5rem;
+        font-size: 20px;
+    }
+    .cards__item__text {
+        color: #252e48;
+        font-size: 12px;
+        line-height: 18px;
+      }
+      .cards__item__pic-wrap::after{
+        padding: 2px 8px;
+        font-size: 8px;
+      }
+    } 

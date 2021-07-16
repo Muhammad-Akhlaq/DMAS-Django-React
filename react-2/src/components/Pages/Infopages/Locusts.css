@@ -1,0 +1,29 @@
+.side-div-Result-info{
+    display: inline-table;
+    display: flex;
+    flex-direction: column;
+   width: 256px;
+   height: 150px;
+   margin-top: -163rem;
+   position:fixed;
+ background-color: #fff;
+  
+  
+   margin-left: 68.33rem;
+   margin-bottom: 3rem;
+ }
+ .side-div-Locust{
+  display:inline-table;
+  
+  width: 256px;
+  height: 250px;
+  margin-top: -182rem;
+  
+  
+background-color: #fff;
+ position:fixed;
+ margin-left: 68.33rem;
+  
+  margin-bottom: 3rem;
+ 
+}

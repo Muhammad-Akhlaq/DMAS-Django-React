@@ -1,0 +1,38 @@
+.Mapadjust{
+    padding-top: 1%;
+    padding-bottom: 50%;
+   
+}
+.Scroll-to-top{
+    position: fixed;
+    bottom: 12px;
+    left: 95%;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color:rgb(87, 27, 27);
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+  
+    
+}
+.Scroll-to-top.icon{
+    margin-top: 10px;
+    animation: Scrolltop 0.5s alternate ease;
+}
+@keyframes Scrolltop{
+    from{
+        transform: translateY(2px);
+    }
+    to{
+        transform: translateY(-1px);
+    }
+}
+@media screen and (max-width: 660px){
+    .Scroll-to-top{
+        left: 85%;
+        width: 30px;
+    height: 30px;
+    }
+}

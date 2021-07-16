@@ -1,0 +1,28 @@
+
+.bargraph {
+ margin: 50px;
+ padding: 60px;
+ 
+  justify-content: center;
+}
+
+.event-container-pie {
+  margin: 20px;
+  justify-content: center;
+  display: flex;
+}
+.country-selecter{
+  justify-content: center;
+  display: flex;
+  
+}
+@media screen and (max-width: 660px) {
+  .event-container-Blog {
+   width:100%;
+  
+  }
+
+  .event-container-pie {
+   width:100%
+  }
+}

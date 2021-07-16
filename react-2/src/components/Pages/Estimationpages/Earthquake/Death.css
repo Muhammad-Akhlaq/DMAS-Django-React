@@ -1,0 +1,141 @@
+.main {
+  background-color: #f7f7f7;
+  margin: 8px;
+ 
+  /*width: 75%;*/
+  
+}
+.class{
+  color: red;
+  margin-left: 70px;
+  font-size: small;
+}
+.class1{
+  color: red;
+  margin-left: 85px;
+  font-size: small;
+}
+.side-div {
+  display: inline-table;
+  width: 250px;
+  height: 150px;
+  background-color: #f7f7f7;
+
+  margin-left: 3rem;
+  text-align: start;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+}
+.div-1 {
+  margin: 2.5rem;
+  border: 1px solid black;
+}
+.Death-Div {
+  text-align: start;
+  margin: 20px;
+}
+.DeathButton-Earthquake {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  transition: all 0.3s ease-out;
+  padding: 8px 50px;
+  font-size: 20px;
+  border-radius: 5px solid black;
+  margin-left: 8.6rem;
+  margin-bottom: 5rem;
+  text-decoration: none;
+}
+
+.DeathButton-Earthquake:hover {
+  transition: all 0.3s ease-out;
+  background: white;
+  color: black;
+  transition: 250ms;
+}
+.Box {
+  margin-left: 0.5rem;
+  width: 50%;
+  height: 2rem;
+}
+.Box2 {
+  margin-left: 1.3rem;
+  width: 50%;
+  height: 2rem;
+}
+.Box3 {
+  margin-left: 0.7rem;
+  width: 50%;
+  height: 2rem;
+}
+
+.form-inputs-Death {
+  margin: 20px;
+  margin-left: 4.3rem;
+}
+.Change {
+  display: flex;
+  padding: 20px;
+}
+.Changing {
+  cursor: pointer;
+  padding: 7px;
+  width: 20%;
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 660px) {
+  
+  .Change {
+    padding: 5px;
+  }
+  .Changing {
+    cursor: pointer;
+    padding: 7px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+  .Box {
+    width: 100%;
+    margin: auto;
+  }
+  .Box2 {
+    width: 100%;
+    margin: auto;
+  }
+  .Box3 {
+    width: 100%;
+    margin: auto;
+  }
+  .form-inputs-Death {
+    margin-left: 1rem;
+  }
+  .DeathButton-Earthquake {
+   margin-left: 15px;
+  }
+  .class{
+    
+    margin-left: auto;
+    
+  }
+  .class1{
+   
+    margin-left: auto;
+    
+  }
+  .side-div {
+    display: inline-table;
+    width: 70px;
+    height: 150px;
+    background-color: #f7f7f7;
+    margin-left: -1rem;
+
+    text-align: start;
+
+    overflow: hidden;
+    text-decoration: none;
+  }
+}

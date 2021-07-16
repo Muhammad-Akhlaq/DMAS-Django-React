@@ -1,0 +1,19 @@
+.news-info-site {
+  display: grid;
+  grid-template-columns: 30% 60%;
+}
+.news-info-Headline {
+  margin: 2rem;
+  border-bottom: 1px solid skyblue;
+}
+.news-info-news {
+  border-right: 1px solid skyblue;
+  margin-left: 2rem;
+}
+.news-info-sidebar{
+    margin: 2rem;
+}
+.news-info-sidebar-counteries{
+    border-top: 1px solid skyblue;
+}
+
